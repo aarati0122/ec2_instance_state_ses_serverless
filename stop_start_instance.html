@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#Devops {
+    font-family: "Times New Roman", Times, serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#Devops td, #Devops th {
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+#Devops tr:nth-child(even){background-color: #f2f2f2;}
+
+#Devops tr:hover {background-color: #ddd;}
+
+#Devops th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    background-color: #44C0F0;
+    color: white;
+}
+input[type=submit]{
+  background-color: #A62773;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin: 3px 1px;
+  cursor: pointer;
+}
+</style>
+
+<font color="BLACK"><marquee direction="left" style="background:#ECF8A1">Start & Stop Prod servers as well as any servers in just 1 click.....</marquee></font>
+
+</head>
+
+  <body>
+<center><p style= "font-size:40px;">EC2-Controller</p></center>
+  <center>  <form method="POST">
+	
+	
+	<table id="Devops">
+ <tr>
+    <th>Instance Name</th>
+      
+  </tr>
+   <tr>
+   <td>Chef server</td>
+   </tr>
+   <tr>
+    <td>webserver</td>
+   </tr>
+    <tr>
+  <td>  Docker  </td>
+  </tr>
+ 
+
+</table>
+<br><br>
+<br><br>
+     <input type="submit"  formaction=" https://rrp5uyeb33.execute-api.ap-south-1.amazonaws.com/Dev" value="Start Servers" />&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+      <input type="submit" formaction="https://rrp5uyeb33.execute-api.ap-south-1.amazonaws.com/Dev2" value="Stop Servers" />
+    </form>
+</center>
+  </body>
+</html>
