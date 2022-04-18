@@ -54,7 +54,7 @@ def send_plain_email(data):
     response = ses_client.send_email(
             Destination={
                 "ToAddresses": [
-                    "akhamakar15@gmail.com",
+                    "abc@gmail.com",
                 ],
             },
             Message={
@@ -69,6 +69,6 @@ def send_plain_email(data):
                     "Data": "EC2 Instances Status Related",
                 },
             },
-            Source="aarati.khamakar01@gmail.com",
+            Source="xyz@gmail.com",
     )
     
